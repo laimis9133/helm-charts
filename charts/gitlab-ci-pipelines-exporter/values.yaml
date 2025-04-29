@@ -129,7 +129,7 @@ config:
   # # Complete configuration syntax reference available here:
   # # https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/blob/master/docs/configuration_syntax.md
   # gitlab:
-  #   url: https://gitlab.example.com
+  #   url: https://gitlab.example.com/
   #   token: <your_token>
   #   enable_health_check: true
   #   enable_tls_verify: true

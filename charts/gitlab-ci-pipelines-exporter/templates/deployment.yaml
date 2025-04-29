@@ -70,7 +70,7 @@ spec:
 {{- end }}
           envFrom:
             - secretRef:
-                name: {{ template "app.fullname" . }}-config
+                name: {{ template "app.fullname" . }}-secret
           volumeMounts:
             - name: config
               mountPath: /etc/config.yml
