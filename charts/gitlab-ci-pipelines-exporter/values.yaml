@@ -195,6 +195,15 @@ redis:
     persistence:
       # redis.master.persistence.enabled -- persist data
       enabled: false
+  
+    # redis.master.resources -- configure redis resources
+    resources: {}
+    #  requests:
+    #    cpu: 1
+    #    memory: 256Mi
+    #  limits:
+    #    cpu: 2
+    #    memory: 512Mi 
 
 ## Ingress configuration (useful when looking to expose /webhook endpoint externally)
 ingress:
